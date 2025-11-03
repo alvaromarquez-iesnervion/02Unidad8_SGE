@@ -18,6 +18,12 @@ namespace _02Unidad8_SGE.Controllers
             return View();
         }
 
+        public IActionResult Ejercicio1(String nombre)
+        {
+            ViewBag.nombre = nombre;
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
